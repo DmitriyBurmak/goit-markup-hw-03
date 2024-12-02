@@ -1,0 +1,191 @@
+body {
+  color: #434455;
+  background-color: #fcfcfc;
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+/* ======= крапки списків ======= */
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* ======= Нижне підкреслювання ======= */
+* {
+  text-decoration: none;
+}
+
+/*  #region Header */
+.header-page {
+  background-color: #ffffff;
+}
+
+.nav-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.nav-logo-half {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #2e2f42;
+}
+
+.current-nav-pages {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.current-nav-pages:hover,
+.current-nav-pages:focus {
+  color: #404bbf;
+}
+
+.current-nav-pages:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.nav-pages:hover,
+.nav-pages:focus,
+.nav-pages:active {
+  color: #404bbf;
+}
+.nav-pages {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.contacts-link,
+.contacts-tel {
+  color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+.contacts-tel:hover,
+.contacts-tel:focus {
+  color: #404bbf;
+}
+/*  #endregion  */
+
+/* #region Hero */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-name {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: #ffffff;
+}
+.hero-button {
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+/* #endregion */
+
+/* #region Priorities */
+
+.priorities-list-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.priorities-list-text {
+  color: #434455;
+}
+/* #endregion */
+
+/* #region Our Team */
+.team {
+  background-color: #f4f4fd;
+}
+.team-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-list-img {
+}
+.team-list-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.team-list-text {
+  color: #434455;
+}
+/* #endregion */
+
+/* #region Portfolio */
+.portfolio {
+}
+.portfolio-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-list-img {
+}
+.portfolio-list-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.portfolio-list-text {
+  color: #434455;
+}
+/* #endregion */
+
+/* #region Footer */
+.footer {
+  background: #2e2f42;
+}
+.nav-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.nav-logo-half {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
+}
+/* #endregion */
