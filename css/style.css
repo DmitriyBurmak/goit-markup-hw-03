@@ -53,6 +53,7 @@ ul {
 }
 .nav-list {
   display: flex;
+  gap: 42px;
 }
 .nav-logo {
   font-family: Raleway, sans-serif;
@@ -61,6 +62,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  margin-left: 141px;
 }
 .nav-logo-half {
   font-family: Raleway, sans-serif;
@@ -94,7 +96,9 @@ ul {
   font-weight: 500;
   color: #2e2f42;
 }
-
+.header-addr {
+  font-style: normal;
+}
 .contacts-link,
 .contacts-tel {
   color: #434455;
