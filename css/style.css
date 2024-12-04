@@ -268,7 +268,6 @@ p {
   gap: 48px 24px;
 }
 .portfolio-list-item {
-  border: 1px solid #e7e9fc;
 }
 .portfolio-list-img {
   display: flex;
@@ -276,6 +275,7 @@ p {
 
 .portfolio-container {
   padding-top: 32px;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-list-name {
@@ -283,9 +283,12 @@ p {
   font-size: 20px;
   line-height: 1.2;
   margin-bottom: 8px;
+  padding-left: 16px;
   color: #2e2f42;
 }
 .portfolio-list-text {
+  padding-bottom: 32px;
+  padding-left: 16px;
   color: #434455;
 }
 /* #endregion */
