@@ -112,7 +112,7 @@ img {
 }
 
 .nav-item {
-  flex-basis: calc((100% -80px) / 3);
+  flex-basis: calc((100% - 80px) / 3);
 }
 
 .nav-item:not(:last-child) {
