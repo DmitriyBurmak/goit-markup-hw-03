@@ -62,19 +62,23 @@ p {
   padding: 120px 0;
 }
 /* #endregion */
-
+/* #region img в block */
+img {
+  display: block;
+}
+/* #endregion */
 /*  #region Header */
 .container .header-page {
   display: flex;
 }
 .header-page .container {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-page {
   background-color: #ffffff;
   flex-wrap: nowrap;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-page {
@@ -134,8 +138,10 @@ p {
   color: #404bbf;
 }
 .nav-pages {
+  display: block;
   font-weight: 500;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .header-addr {
   font-style: normal;
@@ -150,7 +156,7 @@ p {
 }
 
 .contacts-item {
-  flex-basis: calc((100% - 40px) / 2);
+  gap: 40px;
 }
 
 .contacts-link {
@@ -184,7 +190,7 @@ p {
   font-size: 56px;
   line-height: 1.07;
   color: #ffffff;
-  width: 496px;
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
@@ -194,7 +200,7 @@ p {
   color: #ffffff;
   background-color: #4d5ae5;
   min-width: 169px;
-  padding: 16px 32px;
+  height: 56px;
   border: 0;
   border-radius: 4px;
   cursor: pointer;
@@ -205,16 +211,13 @@ p {
 .priorities-container {
   display: flex;
 }
-.priorities-name {
-  display: none;
-}
 
 .priorities-list {
   display: flex;
-  gap: 21px;
+  gap: 24px;
 }
 .priorities-list-item {
-  flex-basis: calc((100% - 72px) / 3);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .priorities-list-name {
@@ -245,7 +248,7 @@ p {
 }
 .team-list {
   display: flex;
-  gap: 21px;
+  gap: 24px;
 }
 
 .team-list-item {
@@ -253,11 +256,9 @@ p {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
 }
-.team-list-img {
-  display: flex;
-}
+
 .team-container {
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
 }
 .team-list-name {
@@ -291,10 +292,6 @@ p {
 .portfolio-list-item {
   flex-basis: calc((100% - 48px) / 3);
 }
-.portfolio-list-img {
-  display: flex;
-  gap: 24px;
-}
 
 .portfolio-container {
   padding: 32px 16px;
@@ -317,14 +314,13 @@ p {
 
 /* #region Footer */
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background: #2e2f42;
 }
 
 .footer .container {
-  display: flex;
   flex-direction: column;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 .footer .nav-logo-footer {
   font-family: 'Raleway', sans-serif;
